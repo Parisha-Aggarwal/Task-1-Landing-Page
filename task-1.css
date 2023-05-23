@@ -1,0 +1,40 @@
+body{
+    background-image: url(gympic.jpg);
+    background-size: cover ;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: black;
+    padding: 20px;
+}
+nav a{
+    color: bisque;
+}
+a:hover{
+    color: blueviolet;
+    font-size: large;
+}
+.main h1{
+    font-size: 60px;
+    font-weight: 700;
+    color:rgb(189, 15, 73);
+    padding:10 ;
+}
+.main p{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 45px;
+}
+.main{
+    text-align: center;
+    margin-top: 150px;
+}
+button{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: burlywood;
+    color: brown;
+}
